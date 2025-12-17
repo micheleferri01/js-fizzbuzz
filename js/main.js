@@ -10,9 +10,13 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
 
 // ##Raccolta dati
 // Dichiaro da che numero desidero iniziare a contare
+const startFrom = 1;
 // Dichiaro fino a che numero desidero contare
+const arriveTo = 100;
 // Dichiaro il primo multiplo del quale desidero conoscere i numeri
+const multipleNum1 = 3;
 // Dichiaro il secondo multiplo del quale desidero conoscere i numeri
+const multipleNum2 = 5;
 
 // ##Elaborazione
 // Creo ciclo per iniziare a contare
