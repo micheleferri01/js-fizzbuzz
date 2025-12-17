@@ -22,7 +22,7 @@ let message;
 
 // ##Elaborazione
 // Creo ciclo per iniziare a contare
-for (let i = startFrom; i < arriveTo; i++){
+for (let i = startFrom; i <= arriveTo; i++){
     // SE (il numero è multiplo di 3 AND multiplo di 5)
     if((i % multipleNum1 === 0) && (i % multipleNum2 === 0)){
         // Scrivo nella console FizzBuzz al posto del numero
@@ -37,6 +37,9 @@ for (let i = startFrom; i < arriveTo; i++){
     else if (i % multipleNum2 === 0){
         // Scrivo nella console Buzz al posto del numero
         message = console.log("Buzz");
+    }
+    else {
+        message = console.log(i);
     }
 }
 
