@@ -31,7 +31,7 @@ for (let i = startFrom; i < arriveTo; i++){
     // ALTRIMENTI SE (il numero è multiplo di 3)
     else if (i % multipleNum1 === 0){
         // Scrivo nella console Fizz al posto del numero
-        
+        message = console.log("Fizz");
     }
     // ALTRIMENTI SE (il numero è multiplo di 5)
     // Scrivo nella console Buzz al posto del numero
