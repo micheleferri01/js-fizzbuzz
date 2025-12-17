@@ -20,12 +20,15 @@ const multipleNum2 = 5;
 
 // ##Elaborazione
 // Creo ciclo per iniziare a contare
+for (let i = startFrom; i < arriveTo; i++){
+
     // SE (il numero è multiplo di 3 AND multiplo di 5)
-        // Scrivo nella console FizzBuzz al posto del numero
+    // Scrivo nella console FizzBuzz al posto del numero
     // ALTRIMENTI SE (il numero è multiplo di 3)
-        // Scrivo nella console Fizz al posto del numero
+    // Scrivo nella console Fizz al posto del numero
     // ALTRIMENTI SE (il numero è multiplo di 5)
-        // Scrivo nella console Buzz al posto del numero
+    // Scrivo nella console Buzz al posto del numero
+}
 
 // ##Output
 // Scrivo la lista dei numeri con le sostituzioni richieste
