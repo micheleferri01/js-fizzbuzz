@@ -58,5 +58,16 @@ for (let i = startFrom; i <= arriveTo; i++){
     if(i % multipleNum2 === 0){
         message += multipleNum2Message;
     }
-    console.log(message || i);
+    if (message === "Fizz"){
+        console.log(`%c${message}`, "color: black; background-color: coral");
+    }
+    else if (message === "Buzz"){
+        console.log(`%c${message}`, "color: black; background-color: lightgreen");
+    }
+    else if (message === "FizzBuzz"){
+        console.log(`%c${message}`, "color: black; background-color: lightblue");
+    }
+    else{
+        console.log(i);
+    }
 }
