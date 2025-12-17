@@ -29,7 +29,10 @@ for (let i = startFrom; i < arriveTo; i++){
         message = console.log("FizzBuzz");
     }
     // ALTRIMENTI SE (il numero è multiplo di 3)
-    // Scrivo nella console Fizz al posto del numero
+    else if (i % multipleNum1 === 0){
+        // Scrivo nella console Fizz al posto del numero
+        
+    }
     // ALTRIMENTI SE (il numero è multiplo di 5)
     // Scrivo nella console Buzz al posto del numero
 }
