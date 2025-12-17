@@ -18,12 +18,16 @@ const multipleNum1 = 3;
 // Dichiaro il secondo multiplo del quale desidero conoscere i numeri
 const multipleNum2 = 5;
 
+let message;
+
 // ##Elaborazione
 // Creo ciclo per iniziare a contare
 for (let i = startFrom; i < arriveTo; i++){
-
     // SE (il numero è multiplo di 3 AND multiplo di 5)
-    // Scrivo nella console FizzBuzz al posto del numero
+    if((i % multipleNum1 === 0) && (i % multipleNum2 === 0)){
+        // Scrivo nella console FizzBuzz al posto del numero
+
+    }
     // ALTRIMENTI SE (il numero è multiplo di 3)
     // Scrivo nella console Fizz al posto del numero
     // ALTRIMENTI SE (il numero è multiplo di 5)
